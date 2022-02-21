@@ -1,0 +1,15 @@
+{
+    "name":"Расширение для Chrome",
+    "description": "for uncle",
+    "version": "2.10.2",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+          "matches": [
+            "https://www.google.com/*"
+          ],
+          "js": ["script.js"]
+        }
+      ]
+
+}
